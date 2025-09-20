@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>I LOVE YOU SO MUCHHH <3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff7fb;
+      --accent:#ff6b9a;
+      --muted:#6b6b6b;
+      --card:#ffffffaa;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      font-family: 'Quicksand', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg,#fff7fb 0%, #f3f9ff 100%);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      overflow-x:hidden;
+      padding:40px 20px;
+    }
+    .wrap{max-width:900px;margin:0 auto;background:var(--card);border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.06);position:relative;overflow:hidden}
+
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    .logo{width:72px;height:72px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#ffb199);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px;box-shadow:0 6px 18px rgba(255,107,154,0.2)}
+    .title{font-family:'Playfair Display', serif}
+    .title h1{font-size:22px;color:#333}
+    .title p{font-size:13px;color:var(--muted)}
+
+    .nav{display:flex;gap:12px;margin:18px 0}
+    .btn{background:var(--glass);padding:10px 16px;border-radius:12px;border:1px solid rgba(0,0,0,0.04);cursor:pointer;backdrop-filter: blur(6px);transition:transform .18s ease, box-shadow .18s ease}
+    .btn:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(0,0,0,0.07)}
+    .btn.active{background:linear-gradient(90deg,var(--accent),#ffb199);color:white}
+
+    .content{min-height:380px;padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.4));box-shadow:inset 0 1px 0 rgba(255,255,255,0.6)}
+
+    .section{display:none;animation:fadeIn .6s ease both}
+    .section.active{display:block}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+    .row{display:flex;gap:18px;align-items:center}
+    .col{flex:1}
+    .photo{width:180px;height:180px;border-radius:14px;background:linear-gradient(135deg,#fff,#eee);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted);overflow:hidden}
+    .photo img{width:100%;height:100%;object-fit:cover}
+
+    .text h2{font-family:'Playfair Display';font-size:20px;margin-bottom:8px}
+    .text p{color:#444;line-height:1.5}
+
+    footer{margin-top:18px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+
+    .petal{position:absolute;top:-10vh;pointer-events:none;z-index:2;filter:drop-shadow(0 6px 10px rgba(0,0,0,0.08))}
+    .petal img{width:28px;height:28px;opacity:.95;transform-origin:center}
+
+    @media (max-width:640px){.row{flex-direction:column}.photo{width:100%;height:260px}.wrap{padding:18px}}
+
+    .heart{position:absolute;right:24px;top:18px;opacity:.12;font-size:120px;transform:rotate(-18deg);pointer-events:none;color:var(--accent)}
+    .poem{white-space: pre-line;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="heart">❤</div>
+    <header>
+      <div class="logo">💖</div>
+      <div class="title">
+        <h1>HAPPY 2 MONTH ANNIVERSARY MY BABYYYYYY 😘😘🐱🐱</h1>
+        <p>Three months and a day since we met and you already made me feel the besttt i ever did</p>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="sections">
+      <button class="btn" data-target="main">💝💝</button>
+      <button class="btn" data-target="begin">1. The first month </button>
+      <button class="btn" data-target="month">2. The second month </button>
+      <button class="btn" data-target="now">3. The third month</button>
+    </nav>
+
+    <main class="content">
+
+      <section id="main" class="section active">
+        <div class="row">
+          <div class="col text" style="text-align:center;">
+            <h2 style="font-size:28px;color:var(--accent)">HAPPYYY 2 MONTHSSS MY BABYYYYYYY 💝💝💝</h2>
+            <p style="margin-top:12px;color:#444">2 months. 2 MONTHS SINCE WE STARTED DATING AND OMFG. I HAVE NEVER FELT BETTER. I FUCKING LOVE YOU SOOOOOOOOOOOOOOOOOOOOOOOOOOOO MUCHHHHHH 😘😘😘😘😘. CAN YOU BELIEVE IT? 3 MONTHS SINCE WE MET AND 2 MONTHS SINCE WE ARE TOGETHER?? ALREADY???? TIME FLEW AWAY WITH YOU LIKE I CAN NOT BELIEVE 2 MONTHS PASSED.</p>
+            <p class="poem">💖Two months have passed, my love, my light,💖  
+💖You make the days feel soft, so right.💖  
+💖In every laugh, in every sigh,💖 
+💖You paint the stars across my sky.💖  </p>
+            <p style="margin-top:12px;color:#444">YOU HAVE BECOME MY FAVORITE PART OF EVERY MORNING AND THE SOFTEST PEACE IN EVERY NIGHTT. AND THIS IS JUST THE START, WE HAVE YEARS TO COME AND I CANT WAIT. <BR>💖I LOVE YOU SOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO MUCH💖</BR></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="begin" class="section">
+        <div class="row">
+          <div class="col photo"><img src="1st.jpg" alt="photo"></div>
+          <div class="col text">
+            <h2>THE FIRST MONTH.</h2>
+            <p>We talked and talked for hoursssssss. You somehow became my favorite part of the day heck you became my day. I couldnt sleep without thinking of you and the fact we dreamt of each other JUST 3 DAYS AFTER MEETING IS SOOOOOO CUTEE. yes we are soulmates and i knew it from the start. We were blushing soooooo much (still do) over every single text. I JUST FELT SOO COMFORTABLE AND WARM WITH YOU LIKE YOU ARE MY HOMEEEEE . I COULDNT MANAGE A SINGLE DAY WHERE I DIDNT SAY GOOD NIGHT CUZ SLEEPINESS TOOK OVER ME AND IM YOUR BABY AND COULDNT FIGHT IT.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="month" class="section">
+        <div class="row">
+          <div class="col text">
+            <h2>THE SECOND MONTH</h2>
+            <p>We didnt even realise how fast the first month went by. It was soooooooooo much better with you. we met in school and were reallyyyyyyyy awkward (still KINDA ARE). AND THIS IS THE MONTH I PROPOSED YOU IN. IT WAS SOOOOOOO HARD TO LOOK AT YOU IN YOUR EYES WHEN I GAVE YOU THE LETTER. I SPENT THE WHOLEEEEE WEEK BLUSHING AND BEING HAPPY. EVERYTHING SEEMED SO MUCH BETTER WITH YOU BY MY SIDE.</p>
+          </div>
+          <div class="col photo"><img src="2nd.jpg" alt="photo"></div>
+        </div>
+      </section>
+
+      <section id="now" class="section">
+        <div class="row">
+          <div class="col photo"><img src="3rd.jpg" alt="photo"></div>
+          <div class="col text">
+            <h2>THE THIRD MONTH.</h2>
+            <p>Now we became a married couple. You bullying meeee, the way you say my name and call me babyyyyy, your sleepy goodnights and you blushing over my poems, and this silly site I made for you. We cant be side-by-side yet, but I keep making little ways to bring you closer. This is one of themmm. for you, always. We willll one day FINALLY BE TOGETHER AND THAT DAY WE WOULD LOOK BACK ON HOW MUCH WE HAVE BEEN THROUGH TOGETHER AND NEVER LEFT EACH OTHER'S SIDE.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>Made by your cute little baby aarab JUST FOR YOUUUUUUU </div>
+      <div style="font-size:11px;color:var(--muted)">Tip: hold my hand already how much will u make me wait</div>
+    </footer>
+
+    <div id="petals"></div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const buttons = document.querySelectorAll('.nav .btn');
+    let currentTarget = 'main';
+
+    buttons.forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const target = btn.dataset.target;
+        if(currentTarget === target){
+          document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
+          document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+          document.getElementById('main').classList.add('active');
+          currentTarget = 'main';
+        } else {
+          document.querySelectorAll('.btn').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+          document.getElementById(target).classList.add('active');
+          currentTarget = target;
+        }
+      });
+    });
+
+    const petalsContainer = document.getElementById('petals');
+    const petalImg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="%23ff6b9a" d="M12 2c1 0 3 1 4 3 2 4-2 8-4 10-2-2-6-6-4-10 1-2 3-3 4-3z"/></svg>';
+
+    function createPetal(sizeMultiplier=1){
+      const petal = document.createElement('div');
+      petal.className='petal';
+      petal.style.left = Math.random()*110 + '%';
+      petal.style.opacity = 0.6 + Math.random()*0.6;
+      const size = (14 + Math.random()*28)*sizeMultiplier;
+      petal.style.width = size+'px';
+      petal.style.height = size+'px';
+      const img = document.createElement('img');
+      img.src = petalImg;
+      img.style.width='100%';
+      img.style.height='100%';
+      petal.appendChild(img);
+
+      const duration = 6 + Math.random()*6;
+      petal.style.transition = `transform ${duration}s linear, top ${duration}s linear`;
+      petalsContainer.appendChild(petal);
+
+      requestAnimationFrame(()=>{
+        petal.style.top = (100 + Math.random()*10) + '%';
+        petal.style.transform = `rotate(${Math.random()*360}deg) translateX(${(Math.random()-0.5)*40}px)`;
+      });
+
+      setTimeout(()=>petal.remove(), (duration+0.3)*1000);
+    }
+
+    setInterval(()=>{
+      const isMainActive = document.getElementById('main').classList.contains('active');
+      createPetal(isMainActive ? 1.5 : 1);
+    }, 300);
+
+    document.addEventListener('keydown', (e)=>{
+      if(e.key==='0') document.querySelector('.btn[data-target="main"]').click();
+      if(e.key==='1') document.querySelector('.btn[data-target="begin"]').click();
+      if(e.key==='2') document.querySelector('.btn[data-target="month"]').click();
+      if(e.key==='3') document.querySelector('.btn[data-target="now"]').click();
+    });
+  </script>
+</body>
+</html>
